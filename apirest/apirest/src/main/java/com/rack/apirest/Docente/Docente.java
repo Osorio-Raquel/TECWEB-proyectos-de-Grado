@@ -23,4 +23,7 @@ public class Docente {
 
     @Basic
     private String nombreCompleto;  // Mapea la columna 'NombreCompleto'
+
+    @Basic
+    private int isDeleted;
 }
